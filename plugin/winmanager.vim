@@ -271,6 +271,7 @@ function! <SID>StartWindowsManager()
 		let cen = 1
 		" for now assume that the explorer windows always stay on the left.
 		" TODO: make this optional later
+		" 将下述改为 wincmd L 可实现插件在右侧显示
 		wincmd H
 		" set up the correct width
 		exe g:winManagerWidth.'wincmd |'
